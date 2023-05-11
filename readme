@@ -1,0 +1,18 @@
+1. source root
+. /usr/local/root6/root_build/bin/thisroot.sh
+
+
+2. first, test the code:
+root -b -q Sample_code.cpp
+
+
+3. if you are sure that the code works well, loop over files
+bash run.sh
+
+
+4. download
+scp -r gang@169.232.156.45:/home/gang/Brian/cen5.AMPT_Correlation_job100.root .
+
+upload
+scp -r Sample_code_test.cpp gang@169.232.156.45:/home/gang/Brian/
+
